@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Cinco Porquês",
+    "slug": "cincopqs",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#423e37"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "<pacotePessoal>",
+      "versionCode": 1,
+      "permissions": [],
+      "config": {
+        "googleMobileAdsAppId": "<chaveAdMob>"
+      }
+    }
+  }
+}
